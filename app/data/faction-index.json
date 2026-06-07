@@ -1,0 +1,56 @@
+{
+  "prefecture-of-ryu": {
+    "count": 6,
+    "units": [
+      "prefecture-of-ryu/atsushi",
+      "prefecture-of-ryu/takashi",
+      "prefecture-of-ryu/ashigaru-spearman",
+      "prefecture-of-ryu/ashigaru-bowman",
+      "prefecture-of-ryu/samurai",
+      "prefecture-of-ryu/bushi"
+    ]
+  },
+  "shiho-clan": {
+    "count": 15,
+    "units": [
+      "shiho-clan/shiho-hiroto",
+      "shiho-clan/tanaka-kazuo",
+      "shiho-clan/wolf-spears",
+      "shiho-clan/wolf-ryoshi",
+      "shiho-clan/loyal-yarimen",
+      "shiho-clan/loyal-kyudoka",
+      "shiho-clan/heimin",
+      "shiho-clan/shiho-misaki",
+      "shiho-clan/shiho-keita",
+      "shiho-clan/shiho-shota",
+      "shiho-clan/shiho-shirak",
+      "shiho-clan/shiho-zanji",
+      "shiho-clan/maki",
+      "shiho-clan/yoshitaka",
+      "shiho-clan/shiho-eishin"
+    ]
+  },
+  "silvermoon-trade-syndicate": {
+    "count": 18,
+    "units": [
+      "silvermoon-trade-syndicate/shonosuke",
+      "silvermoon-trade-syndicate/oda-and-tautolu",
+      "silvermoon-trade-syndicate/yokozuna-akashi",
+      "silvermoon-trade-syndicate/malosi",
+      "silvermoon-trade-syndicate/manu",
+      "silvermoon-trade-syndicate/rakki",
+      "silvermoon-trade-syndicate/tsubaki",
+      "silvermoon-trade-syndicate/saki",
+      "silvermoon-trade-syndicate/tomo",
+      "silvermoon-trade-syndicate/pit-dogs",
+      "silvermoon-trade-syndicate/misao",
+      "silvermoon-trade-syndicate/old-zo",
+      "silvermoon-trade-syndicate/tuk",
+      "silvermoon-trade-syndicate/yoshiko",
+      "silvermoon-trade-syndicate/zhiv",
+      "silvermoon-trade-syndicate/minori",
+      "silvermoon-trade-syndicate/satzuko",
+      "silvermoon-trade-syndicate/kawai"
+    ]
+  }
+}

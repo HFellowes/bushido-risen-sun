@@ -1,0 +1,40 @@
+{
+  "name": "bushido-risen-sun",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run fetch-data && nuxt build",
+    "dev": "nuxt dev",
+    "generate": "npm run fetch-data && nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "fetch-data": "tsx scripts/fetch-jwarref-data.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "nuxt": "^3.16.0",
+    "@pinia/nuxt": "^0.9.0",
+    "pinia": "^2.3.0",
+    "@nuxt/icon": "^1.12.0",
+    "@nuxt/image": "^1.10.0",
+    "fuse.js": "^7.0.0",
+    "drizzle-orm": "^0.41.0",
+    "better-sqlite3": "^11.9.1",
+    "@libsql/client": "^0.14.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "tailwindcss": "^4.1.0",
+    "drizzle-kit": "^0.30.0",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "typescript": "^5.8.0",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "vue-tsc": "^2.2.0"
+  }
+}

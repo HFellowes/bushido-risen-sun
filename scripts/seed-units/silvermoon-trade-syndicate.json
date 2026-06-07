@@ -1,0 +1,515 @@
+[
+  {
+    "id": "silvermoon-trade-syndicate/shonosuke",
+    "name": "Shonosuke",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 12,
+    "profile": {
+      "move": 5,
+      "strength": 4,
+      "kiPool": 4,
+      "wounds": 13,
+      "defence": 5,
+      "armour": 3,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "coerce", "name": "Coerce", "description": "Once per activation this model may move a friendly model within S range up to 2\".", "keywords": [] },
+      { "id": "man-of-the-shadows", "name": "Man of the Shadows", "description": "This model does not block line of sight.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "word-on-the-street", "name": "Word on the Street", "cost": 2, "range": "M", "description": "Look at your opponent's hand of cards. You may then swap one card from your hand with one from theirs.", "keywords": [] },
+      { "id": "pull-strings", "name": "Pull Strings", "cost": 3, "range": "L", "description": "Move a friendly model up to its full move distance.", "keywords": [] }
+    ],
+    "special": "Leader of the Silvermoon Trade Syndicate's street operations. Shonosuke controls everything that happens in Jima's underworld.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-shonosuke",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/oda-and-tautolu",
+    "name": "Oda & Tautolu",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 13,
+    "profile": {
+      "move": 4,
+      "strength": 5,
+      "kiPool": 3,
+      "wounds": 16,
+      "defence": 4,
+      "armour": 3,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "paired", "name": "Paired", "description": "Oda and Tautolu are always deployed and removed from the table together. They count as a single model for all purposes.", "keywords": [] },
+      { "id": "bodyguard", "name": "Bodyguard", "description": "While within S of the model they are guarding, this model may intercept attacks targeting that model.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "back-to-back", "name": "Back to Back", "cost": 2, "range": "S", "description": "Until the end of the round, this model gains +1 defence while adjacent to a friendly model.", "keywords": [] }
+    ],
+    "special": "A two-model unit — the muscle of the Syndicate. Oda handles threats up close while Tautolu provides cover.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-oda-tautolu",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/yokozuna-akashi",
+    "name": "Yokozuna Akashi",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 14,
+    "profile": {
+      "move": 4,
+      "strength": 6,
+      "kiPool": 3,
+      "wounds": 18,
+      "defence": 4,
+      "armour": 2,
+      "size": "large",
+      "base": 40
+    },
+    "traits": [
+      { "id": "slam", "name": "Slam", "description": "When this model charges, the target is moved 2\" directly away from this model after the charge resolves.", "keywords": [] },
+      { "id": "immovable", "name": "Immovable", "description": "This model cannot be moved by enemy effects.", "keywords": [] },
+      { "id": "fear-1", "name": "Fear (1)", "description": "Enemy models within M of this model must pass a Fear test or suffer -1 to all melee dice rolls.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "ring-out", "name": "Ring Out", "cost": 3, "range": "S", "description": "Push target model up to 4\" directly away. If they contact a piece of terrain or another model, they suffer 3 damage.", "keywords": [] }
+    ],
+    "special": "The champion sumo wrestler of Jima. An enormous model that dominates the table through pure physical presence.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-yokozuna-akashi",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/malosi",
+    "name": "Malosi",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 11,
+    "profile": {
+      "move": 5,
+      "strength": 5,
+      "kiPool": 3,
+      "wounds": 14,
+      "defence": 4,
+      "armour": 2,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "brutal", "name": "Brutal", "description": "This model adds +1 to all damage rolls in melee.", "keywords": [] },
+      { "id": "bludgeon", "name": "Bludgeon", "description": "On a successful melee attack, the target must pass a Strength test or become Prone.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "ground-and-pound", "name": "Ground and Pound", "cost": 2, "range": "S", "description": "Make an additional melee attack against a Prone enemy model.", "keywords": [] }
+    ],
+    "special": "A fearsome Polynesian-style warrior who excels at knocking enemies down and keeping them there.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-malosi",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/manu",
+    "name": "Manu",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 9,
+    "profile": {
+      "move": 6,
+      "strength": 3,
+      "kiPool": 3,
+      "wounds": 11,
+      "defence": 4,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "acrobat", "name": "Acrobat", "description": "This model ignores movement penalties for terrain.", "keywords": [] },
+      { "id": "thrown-weapon", "name": "Thrown Weapon", "description": "This model may make ranged attacks using its Strength.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "whirling-blades", "name": "Whirling Blades", "cost": 2, "range": "S", "description": "Make a melee attack against every enemy model within S range.", "keywords": [] }
+    ],
+    "special": "Fast and aggressive, Manu uses speed and mobility to overwhelm opponents.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-manu",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/rakki",
+    "name": "Rakki",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 7,
+    "profile": {
+      "move": 6,
+      "strength": 2,
+      "kiPool": 4,
+      "wounds": 9,
+      "defence": 4,
+      "armour": 1,
+      "size": "small",
+      "base": 25
+    },
+    "traits": [
+      { "id": "lucky", "name": "Lucky", "description": "Once per game, this model may reroll any single dice roll.", "keywords": [] },
+      { "id": "fortune-favours", "name": "Fortune Favours", "description": "Friendly models within S of this model gain +1 to Fate rolls.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "roll-the-dice", "name": "Roll the Dice", "cost": 1, "range": "M", "description": "A friendly model within M may reroll one dice from its next roll.", "keywords": [] }
+    ],
+    "special": "A lucky gambler who brings fortune to those around him. Low combat ability but excellent support.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-rakki",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/tsubaki",
+    "name": "Tsubaki",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 8,
+    "profile": {
+      "move": 6,
+      "strength": 3,
+      "kiPool": 3,
+      "wounds": 10,
+      "defence": 5,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "assassin", "name": "Assassin", "description": "This model ignores Armour when making attacks in the opponent's activation.", "keywords": [] },
+      { "id": "concealed", "name": "Concealed", "description": "This model may deploy hidden during scenario setup.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "deadly-caress", "name": "Deadly Caress", "cost": 2, "range": "S", "description": "Target friendly model heals 2 wounds. Target enemy model suffers 2 wounds. Neither can be prevented.", "keywords": [] }
+    ],
+    "special": "A deadly kunoichi working for the Syndicate.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-tsubaki",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/saki",
+    "name": "Saki",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 7,
+    "profile": {
+      "move": 6,
+      "strength": 2,
+      "kiPool": 3,
+      "wounds": 9,
+      "defence": 4,
+      "armour": 1,
+      "size": "small",
+      "base": 25
+    },
+    "traits": [
+      { "id": "acrobat", "name": "Acrobat", "description": "This model ignores movement penalties for terrain.", "keywords": [] },
+      { "id": "pickpocket", "name": "Pickpocket", "description": "When this model wins a melee exchange, it gains 1 Coin token.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "A nimble street thief who uses agility over brute force.",
+    "unique": false,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-saki",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/tomo",
+    "name": "Tomo",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 7,
+    "profile": {
+      "move": 5,
+      "strength": 3,
+      "kiPool": 2,
+      "wounds": 10,
+      "defence": 3,
+      "armour": 2,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "debt-collector", "name": "Debt Collector", "description": "When this model kills an enemy model, gain 2 Coin tokens.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "The Syndicate's enforcer. No-nonsense muscle for collecting what is owed.",
+    "unique": false,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-tomo",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/pit-dogs",
+    "name": "Pit Dogs",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 5,
+    "profile": {
+      "move": 7,
+      "strength": 2,
+      "kiPool": 1,
+      "wounds": 6,
+      "defence": 3,
+      "armour": 0,
+      "size": "small",
+      "base": 25
+    },
+    "traits": [
+      { "id": "animal", "name": "Animal", "description": "This model cannot make Ranged attacks and is immune to Fear, Terrifying and Coerce effects.", "keywords": [] },
+      { "id": "pack-tactics", "name": "Pack Tactics", "description": "This model gains +1 attack die for each other friendly Animal model in base contact with the target.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "Fighting dogs used as expendable attack units and objective holders.",
+    "unique": false,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-pit-dogs",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/misao",
+    "name": "Misao",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 8,
+    "profile": {
+      "move": 5,
+      "strength": 2,
+      "kiPool": 4,
+      "wounds": 9,
+      "defence": 4,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "spy", "name": "Spy", "description": "At the start of the game, look at the top 3 cards of your opponent's deck.", "keywords": [] },
+      { "id": "informant", "name": "Informant", "description": "Once per round, you may look at one card in your opponent's hand.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "stolen-intel", "name": "Stolen Intel", "cost": 2, "range": "L", "description": "Your opponent must reveal all cards in their hand until the end of their next activation.", "keywords": [] }
+    ],
+    "special": "An information broker who manipulates the flow of battle through intelligence.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-misao",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/old-zo",
+    "name": "Old Zo",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 9,
+    "profile": {
+      "move": 4,
+      "strength": 3,
+      "kiPool": 5,
+      "wounds": 10,
+      "defence": 4,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "wise", "name": "Wise", "description": "Friendly models within M of this model may use his Ki stat for Ki tests.", "keywords": [] },
+      { "id": "weathered", "name": "Weathered", "description": "This model is immune to all Condition effects on a roll of 4+.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "old-tricks", "name": "Old Tricks", "cost": 2, "range": "M", "description": "A friendly model within M immediately recovers from one Condition marker.", "keywords": [] },
+      { "id": "years-of-wisdom", "name": "Years of Wisdom", "cost": 3, "range": "M", "description": "A friendly model within M gains +2 Ki until the end of the round.", "keywords": [] }
+    ],
+    "special": "A veteran of the Syndicate's operations, Old Zo provides invaluable support through decades of experience.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-old-zo",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/tuk",
+    "name": "Tuk",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 6,
+    "profile": {
+      "move": 6,
+      "strength": 3,
+      "kiPool": 2,
+      "wounds": 9,
+      "defence": 4,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "street-fighter", "name": "Street Fighter", "description": "This model does not suffer penalties when fighting in difficult terrain.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "A scrappy street brawler.",
+    "unique": false,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-tuk",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/yoshiko",
+    "name": "Yoshiko",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 8,
+    "profile": {
+      "move": 6,
+      "strength": 3,
+      "kiPool": 3,
+      "wounds": 10,
+      "defence": 5,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "geisha", "name": "Geisha", "description": "Enemy models within S of this model suffer -1 to their Ki pool.", "keywords": [] },
+      { "id": "distraction", "name": "Distraction", "description": "Once per round this model may cause an enemy within S to lose 1 action.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "poison-tea", "name": "Poison Tea", "cost": 2, "range": "S", "description": "Target model gains the Poisoned condition.", "keywords": [] }
+    ],
+    "special": "Beautiful and deadly — Yoshiko uses charm and subtlety as weapons.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-yoshiko",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/zhiv",
+    "name": "Zhiv",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 9,
+    "profile": {
+      "move": 5,
+      "strength": 4,
+      "kiPool": 3,
+      "wounds": 12,
+      "defence": 4,
+      "armour": 2,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "hired-sword", "name": "Hired Sword", "description": "This model may be taken as a Ronin hire by any faction.", "keywords": [] },
+      { "id": "mercenary", "name": "Mercenary", "description": "At the start of the game, choose one faction trait. This model gains that trait for the game.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "pay-day", "name": "Pay Day", "cost": 2, "range": "S", "description": "If this model kills an enemy this activation, gain 2 Coin tokens.", "keywords": [] }
+    ],
+    "special": "A foreign mercenary with a complicated past. One of the most versatile Syndicate models.",
+    "unique": true,
+    "ronin": true,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-zhiv",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/minori",
+    "name": "Minori",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 10,
+    "profile": {
+      "move": 5,
+      "strength": 3,
+      "kiPool": 4,
+      "wounds": 11,
+      "defence": 5,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "mastermind", "name": "Mastermind", "description": "Once per round this model may give a friendly model within L range an additional action.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "the-plan", "name": "The Plan", "cost": 3, "range": "L", "description": "A friendly model within L immediately performs a full activation out of turn.", "keywords": [] }
+    ],
+    "special": "A strategic genius who orchestrates Syndicate operations from the shadows.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-minori",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/satzuko",
+    "name": "Satzuko",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 7,
+    "profile": {
+      "move": 6,
+      "strength": 2,
+      "kiPool": 4,
+      "wounds": 9,
+      "defence": 4,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "healer", "name": "Healer", "description": "Once per activation this model may remove 2 wounds from a friendly model in base contact.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "field-dressing", "name": "Field Dressing", "cost": 2, "range": "S", "description": "A friendly model within S recovers D3+1 wounds.", "keywords": [] }
+    ],
+    "special": "The Syndicate's medic. Keeps valuable assets fighting.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/06-sts-model-satzuko",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "silvermoon-trade-syndicate/kawai",
+    "name": "Kawai",
+    "faction": "silvermoon-trade-syndicate",
+    "type": "model",
+    "riceCost": 6,
+    "profile": {
+      "move": 6,
+      "strength": 2,
+      "kiPool": 3,
+      "wounds": 8,
+      "defence": 4,
+      "armour": 0,
+      "size": "small",
+      "base": 25
+    },
+    "traits": [
+      { "id": "child", "name": "Child", "description": "Enemy models that could target this model must pass a Will test to do so.", "keywords": [] },
+      { "id": "stealthy", "name": "Stealthy", "description": "Ranged attacks targeting this model suffer -1 die.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "wide-eyes", "name": "Wide Eyes", "cost": 1, "range": "M", "description": "Target enemy model within M loses 1 die on its next attack roll.", "keywords": [] }
+    ],
+    "special": "Don't let the innocent appearance fool you — Kawai is one of the Syndicate's most unpredictable assets.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/kawai",
+    "sourceFile": "seed-approximate"
+  }
+]

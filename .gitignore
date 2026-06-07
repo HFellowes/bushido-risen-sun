@@ -1,0 +1,35 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node
+node_modules
+
+# Database
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# Generated game data (re-run fetch-data to regenerate)
+app/data/units/
+app/data/index.json
+app/data/ki-feats.json
+app/data/conditions.json
+app/data/rules/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "prefecture-of-ryu/atsushi",
+    "name": "Atsushi",
+    "faction": "prefecture-of-ryu",
+    "type": "model",
+    "riceCost": 8,
+    "profile": {
+      "move": 5,
+      "strength": 3,
+      "kiPool": 3,
+      "wounds": 12,
+      "defence": 4,
+      "armour": 3,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "bravado", "name": "Bravado", "description": "This model does not suffer the effects of Fear or Terrifying.", "keywords": [] },
+      { "id": "bushido", "name": "Bushido", "description": "This model may use the Bushido special action.", "keywords": [] }
+    ],
+    "kiFeats": [
+      {
+        "id": "strike-true",
+        "name": "Strike True",
+        "cost": 2,
+        "range": "S",
+        "description": "This model gains +1 to all attack rolls this activation.",
+        "keywords": []
+      }
+    ],
+    "special": "",
+    "unique": false,
+    "ronin": false,
+    "sourceFile": "seed"
+  },
+  {
+    "id": "prefecture-of-ryu/takashi",
+    "name": "Takashi",
+    "faction": "prefecture-of-ryu",
+    "type": "model",
+    "riceCost": 10,
+    "profile": {
+      "move": 5,
+      "strength": 4,
+      "kiPool": 4,
+      "wounds": 15,
+      "defence": 5,
+      "armour": 4,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "bushido", "name": "Bushido", "description": "This model may use the Bushido special action.", "keywords": [] },
+      { "id": "fearless", "name": "Fearless", "description": "This model is immune to Fear and Terrifying.", "keywords": [] },
+      { "id": "resilience", "name": "Resilience (1)", "description": "Reduce all damage this model suffers by 1 (minimum 1).", "keywords": [] }
+    ],
+    "kiFeats": [
+      {
+        "id": "iron-will",
+        "name": "Iron Will",
+        "cost": 2,
+        "range": "S",
+        "description": "This model may immediately remove one Condition marker.",
+        "keywords": []
+      },
+      {
+        "id": "rallying-cry",
+        "name": "Rallying Cry",
+        "cost": 3,
+        "range": "M",
+        "description": "All friendly models within M range gain +1 to their next attack roll.",
+        "keywords": []
+      }
+    ],
+    "special": "",
+    "unique": true,
+    "ronin": false,
+    "sourceFile": "seed"
+  },
+  {
+    "id": "prefecture-of-ryu/ashigaru-spearman",
+    "name": "Ashigaru Spearman",
+    "faction": "prefecture-of-ryu",
+    "type": "model",
+    "riceCost": 4,
+    "profile": {
+      "move": 5,
+      "strength": 2,
+      "kiPool": 2,
+      "wounds": 8,
+      "defence": 3,
+      "armour": 2,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "spear", "name": "Spear", "description": "This model's melee attacks have Reach.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "Cheap but reliable levy troops. Can be taken in groups of 1-3.",
+    "unique": false,
+    "ronin": false,
+    "sourceFile": "seed"
+  },
+  {
+    "id": "prefecture-of-ryu/ashigaru-bowman",
+    "name": "Ashigaru Bowman",
+    "faction": "prefecture-of-ryu",
+    "type": "model",
+    "riceCost": 4,
+    "profile": {
+      "move": 5,
+      "strength": 2,
+      "kiPool": 2,
+      "wounds": 8,
+      "defence": 3,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "ranged-2", "name": "Ranged (2)", "description": "This model may make ranged attacks with a range of 2.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "",
+    "unique": false,
+    "ronin": false,
+    "sourceFile": "seed"
+  },
+  {
+    "id": "prefecture-of-ryu/samurai",
+    "name": "Samurai",
+    "faction": "prefecture-of-ryu",
+    "type": "model",
+    "riceCost": 9,
+    "profile": {
+      "move": 5,
+      "strength": 3,
+      "kiPool": 3,
+      "wounds": 12,
+      "defence": 4,
+      "armour": 3,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "bushido", "name": "Bushido", "description": "This model may use the Bushido special action.", "keywords": [] },
+      { "id": "kenjutsu", "name": "Kenjutsu", "description": "This model gains +1 attack die when making melee attacks.", "keywords": [] }
+    ],
+    "kiFeats": [
+      {
+        "id": "focused-strike",
+        "name": "Focused Strike",
+        "cost": 2,
+        "range": "S",
+        "description": "This model's next melee attack gains Pierce (2).",
+        "keywords": []
+      }
+    ],
+    "special": "",
+    "unique": false,
+    "ronin": false,
+    "sourceFile": "seed"
+  },
+  {
+    "id": "prefecture-of-ryu/bushi",
+    "name": "Bushi",
+    "faction": "prefecture-of-ryu",
+    "type": "model",
+    "riceCost": 6,
+    "profile": {
+      "move": 6,
+      "strength": 3,
+      "kiPool": 2,
+      "wounds": 10,
+      "defence": 4,
+      "armour": 2,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "bushido", "name": "Bushido", "description": "This model may use the Bushido special action.", "keywords": [] },
+      { "id": "quick", "name": "Quick", "description": "This model may make an additional move action each activation.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "",
+    "unique": false,
+    "ronin": false,
+    "sourceFile": "seed"
+  }
+]

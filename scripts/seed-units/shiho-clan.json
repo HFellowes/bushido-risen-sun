@@ -1,0 +1,438 @@
+[
+  {
+    "id": "shiho-clan/shiho-hiroto",
+    "name": "Shiho Hiroto, the Black Eagle",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 14,
+    "profile": {
+      "move": 6,
+      "strength": 5,
+      "kiPool": 5,
+      "wounds": 15,
+      "defence": 6,
+      "armour": 3,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "bushido", "name": "Bushido", "description": "This model may use the Bushido special action.", "keywords": [] },
+      { "id": "fearless", "name": "Fearless", "description": "This model is immune to Fear and Terrifying.", "keywords": [] },
+      { "id": "inspiring", "name": "Inspiring", "description": "Friendly models within M of this model may reroll failed Fear and Will tests.", "keywords": [] },
+      { "id": "guerrilla-fighter", "name": "Guerrilla Fighter", "description": "This model does not need line of sight to move into base contact with an enemy.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "eagles-dive", "name": "Eagle's Dive", "cost": 2, "range": "L", "description": "This model may immediately move up to L range directly toward an enemy model. If it contacts the enemy, make an immediate free melee attack.", "keywords": [] },
+      { "id": "black-eagle-strikes", "name": "Black Eagle Strikes", "cost": 3, "range": "S", "description": "Make three separate melee attacks against any combination of enemy models within S range.", "keywords": [] },
+      { "id": "rallying-war-cry", "name": "Rallying War Cry", "cost": 2, "range": "M", "description": "All friendly models within M immediately remove one Condition marker of your choice.", "keywords": [] }
+    ],
+    "special": "The once-exiled lord of the Shiho Clan has returned to reclaim his birthright. Shiho Hiroto is one of the most dangerous models in the game — exceptionally high stats across the board with the mobility and feats to match.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-shiho-hiroto",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/tanaka-kazuo",
+    "name": "Tanaka Kazuo & Heir",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 11,
+    "profile": {
+      "move": 5,
+      "strength": 4,
+      "kiPool": 4,
+      "wounds": 13,
+      "defence": 5,
+      "armour": 3,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "bushido", "name": "Bushido", "description": "This model may use the Bushido special action.", "keywords": [] },
+      { "id": "tactician", "name": "Tactician", "description": "At the start of the game, draw one additional scenario card.", "keywords": [] },
+      { "id": "paired", "name": "Paired", "description": "Kazuo and his Heir are always deployed and act together, but as separate models.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "honour-thy-clan", "name": "Honour Thy Clan", "cost": 2, "range": "M", "description": "A friendly model within M gains Fearless until the end of the round.", "keywords": [] },
+      { "id": "strategic-mind", "name": "Strategic Mind", "cost": 3, "range": "L", "description": "Move up to two friendly models within L range up to their full move distance.", "keywords": [] }
+    ],
+    "special": "A senior Shiho commander and his son. Two models that support each other and the warband through tactical positioning.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-tanaka-kazuo-heir",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/wolf-spears",
+    "name": "Wolf Spears",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 9,
+    "profile": {
+      "move": 6,
+      "strength": 3,
+      "kiPool": 2,
+      "wounds": 10,
+      "defence": 3,
+      "armour": 2,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "spear", "name": "Spear", "description": "This model's melee attacks have Reach.", "keywords": [] },
+      { "id": "pack", "name": "Pack", "description": "This model may be taken in groups of 1 to 3. Each model in the pack activates together as a group.", "keywords": [] },
+      { "id": "wolf-totem", "name": "Wolf Totem", "description": "While within M of another Wolf Spears model, this model gains +1 Strength.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "Elite Shiho warriors bearing wolf iconography. Stronger in packs — the more Wolf Spears on the table, the more dangerous each one becomes.",
+    "unique": false,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-wolf-spears",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/wolf-ryoshi",
+    "name": "Wolf Ryoshi",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 9,
+    "profile": {
+      "move": 6,
+      "strength": 2,
+      "kiPool": 2,
+      "wounds": 9,
+      "defence": 3,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "ranged-2", "name": "Ranged (2)", "description": "This model may make ranged attacks with a range band of 2.", "keywords": [] },
+      { "id": "pack", "name": "Pack", "description": "This model may be taken in groups of 1 to 3.", "keywords": [] },
+      { "id": "wolf-totem", "name": "Wolf Totem", "description": "While within M of another Wolf model, this model gains +1 to ranged attack rolls.", "keywords": [] },
+      { "id": "skirmisher", "name": "Skirmisher", "description": "This model may fire into melee without penalty.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "Wolf-themed Shiho hunters skilled at ranging ahead of the warband and picking off isolated targets.",
+    "unique": false,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-wolf-ryoshi",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/loyal-yarimen",
+    "name": "Loyal Yarimen",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 8,
+    "profile": {
+      "move": 5,
+      "strength": 3,
+      "kiPool": 2,
+      "wounds": 10,
+      "defence": 3,
+      "armour": 2,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "spear", "name": "Spear", "description": "This model's melee attacks have Reach.", "keywords": [] },
+      { "id": "loyal", "name": "Loyal", "description": "While within M of Shiho Hiroto, this model gains +1 to all attack and defence rolls.", "keywords": [] },
+      { "id": "pack", "name": "Pack", "description": "May be taken in groups of 1 to 3.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "Faithful spearmen who have followed Hiroto since his exile. Simple and reliable melee fighters.",
+    "unique": false,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-loyal-yarimen",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/loyal-kyudoka",
+    "name": "Loyal Kyudoka",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 7,
+    "profile": {
+      "move": 5,
+      "strength": 2,
+      "kiPool": 2,
+      "wounds": 8,
+      "defence": 3,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "ranged-2", "name": "Ranged (2)", "description": "This model may make ranged attacks.", "keywords": [] },
+      { "id": "loyal", "name": "Loyal", "description": "While within M of Shiho Hiroto, this model gains +1 to all ranged attack rolls.", "keywords": [] },
+      { "id": "pack", "name": "Pack", "description": "May be taken in groups of 1 to 3.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "Dedicated archers. The Loyal prefix means they gain bonuses in Hiroto's presence.",
+    "unique": false,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-loyal-kyudoka",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/heimin",
+    "name": "Heimin",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 3,
+    "profile": {
+      "move": 5,
+      "strength": 2,
+      "kiPool": 1,
+      "wounds": 7,
+      "defence": 2,
+      "armour": 0,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "pack", "name": "Pack", "description": "May be taken in groups of 1 to 4.", "keywords": [] },
+      { "id": "mob-rule", "name": "Mob Rule", "description": "Gains +1 Strength and +1 Defence for each other Heimin within M.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "Peasant levies — cheap, fragile, but dangerous in numbers. The backbone of Hiroto's guerrilla army.",
+    "unique": false,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-heimin",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/shiho-misaki",
+    "name": "Shiho Misaki",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 9,
+    "profile": {
+      "move": 6,
+      "strength": 3,
+      "kiPool": 4,
+      "wounds": 10,
+      "defence": 5,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "bushido", "name": "Bushido", "description": "This model may use the Bushido special action.", "keywords": [] },
+      { "id": "acrobat", "name": "Acrobat", "description": "This model ignores movement penalties for terrain.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "shadow-step", "name": "Shadow Step", "cost": 2, "range": "M", "description": "This model may immediately move up to M range ignoring terrain and models.", "keywords": [] }
+    ],
+    "special": "A swift and elusive Shiho warrior. Misaki's mobility makes her excellent for claiming objectives.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-shiho-misaki",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/shiho-keita",
+    "name": "Shiho Keita",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 8,
+    "profile": {
+      "move": 5,
+      "strength": 4,
+      "kiPool": 3,
+      "wounds": 12,
+      "defence": 4,
+      "armour": 3,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "bushido", "name": "Bushido", "description": "This model may use the Bushido special action.", "keywords": [] },
+      { "id": "resilience", "name": "Resilience (1)", "description": "Reduce all damage this model suffers by 1 (minimum 1).", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "stand-firm", "name": "Stand Firm", "cost": 2, "range": "S", "description": "Until the end of the round, this model cannot be pushed, moved or knocked Prone by enemy effects.", "keywords": [] }
+    ],
+    "special": "A dependable Shiho warrior. Solid melee fighter with good staying power.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-shiho-keita",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/shiho-shota",
+    "name": "Shiho Shota",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 7,
+    "profile": {
+      "move": 6,
+      "strength": 3,
+      "kiPool": 3,
+      "wounds": 10,
+      "defence": 4,
+      "armour": 2,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "bushido", "name": "Bushido", "description": "This model may use the Bushido special action.", "keywords": [] },
+      { "id": "quick", "name": "Quick", "description": "This model may make one additional move action per activation.", "keywords": [] }
+    ],
+    "kiFeats": [],
+    "special": "A quick-footed Shiho warrior. Shota uses speed to get into position and disrupt enemy plans.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-shiho-shota",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/shiho-shirak",
+    "name": "Shiho Shirak",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 8,
+    "profile": {
+      "move": 5,
+      "strength": 3,
+      "kiPool": 4,
+      "wounds": 10,
+      "defence": 4,
+      "armour": 2,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "ranged-1", "name": "Ranged (1)", "description": "This model may make short-range attacks.", "keywords": [] },
+      { "id": "guerrilla", "name": "Guerrilla", "description": "This model may move after making a ranged attack.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "ambush", "name": "Ambush", "cost": 2, "range": "M", "description": "This model may make a free ranged attack against an enemy model that moves within M of this model.", "keywords": [] }
+    ],
+    "special": "A versatile Shiho fighter who excels at guerrilla tactics — shoot and move to avoid retaliation.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-shiho-shirak",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/shiho-zanji",
+    "name": "Shiho Zanji",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 8,
+    "profile": {
+      "move": 5,
+      "strength": 4,
+      "kiPool": 3,
+      "wounds": 11,
+      "defence": 4,
+      "armour": 3,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "bushido", "name": "Bushido", "description": "This model may use the Bushido special action.", "keywords": [] },
+      { "id": "counter-attack", "name": "Counter-Attack", "description": "When this model loses a melee exchange, it may immediately make a free attack against the attacker.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "riposte", "name": "Riposte", "cost": 2, "range": "S", "description": "Until the end of the round, each time this model loses a melee exchange it may make a free additional melee attack.", "keywords": [] }
+    ],
+    "special": "A skilled duelist who turns opponents' aggression against them. The more he's attacked, the more dangerous he becomes.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-shiho-zanji",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/maki",
+    "name": "Maki",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 7,
+    "profile": {
+      "move": 6,
+      "strength": 2,
+      "kiPool": 4,
+      "wounds": 9,
+      "defence": 4,
+      "armour": 1,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "medic", "name": "Medic", "description": "Once per activation, remove D3 wounds from a friendly model in base contact.", "keywords": [] },
+      { "id": "supply-runner", "name": "Supply Runner", "description": "This model may move through friendly models without penalty.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "field-medicine", "name": "Field Medicine", "cost": 2, "range": "S", "description": "A friendly model within S recovers D3+1 wounds and removes one Condition marker.", "keywords": [] }
+    ],
+    "special": "The Shiho Clan's field medic. Maki keeps the warband fighting through sustained campaigns.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-maki",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/yoshitaka",
+    "name": "Yoshitaka",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 9,
+    "profile": {
+      "move": 5,
+      "strength": 5,
+      "kiPool": 3,
+      "wounds": 13,
+      "defence": 4,
+      "armour": 3,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "bushido", "name": "Bushido", "description": "This model may use the Bushido special action.", "keywords": [] },
+      { "id": "tough", "name": "Tough", "description": "This model may reroll one dice on each Defence roll.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "crushing-blow", "name": "Crushing Blow", "cost": 2, "range": "S", "description": "This model's next melee attack gains +2 damage and ignores Armour.", "keywords": [] }
+    ],
+    "special": "A powerfully built Shiho warrior who hits hard and takes hits equally well.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/11-shi-model-yoshitaka",
+    "sourceFile": "seed-approximate"
+  },
+  {
+    "id": "shiho-clan/shiho-eishin",
+    "name": "Shiho Eishin",
+    "faction": "shiho-clan",
+    "type": "model",
+    "riceCost": 10,
+    "profile": {
+      "move": 5,
+      "strength": 4,
+      "kiPool": 5,
+      "wounds": 12,
+      "defence": 5,
+      "armour": 2,
+      "size": "medium",
+      "base": 30
+    },
+    "traits": [
+      { "id": "bushido", "name": "Bushido", "description": "This model may use the Bushido special action.", "keywords": [] },
+      { "id": "shugenja", "name": "Shugenja", "description": "This model may use Ki Feats that cost up to 5 Ki.", "keywords": [] },
+      { "id": "ward", "name": "Ward", "description": "Friendly models within S of this model gain +1 armour.", "keywords": [] }
+    ],
+    "kiFeats": [
+      { "id": "spirit-shield", "name": "Spirit Shield", "cost": 3, "range": "S", "description": "A friendly model within S is immune to all damage and conditions until the start of your next activation.", "keywords": [] },
+      { "id": "binding-ward", "name": "Binding Ward", "cost": 2, "range": "M", "description": "Target enemy model within M cannot use Ki Feats until the start of your next activation.", "keywords": [] }
+    ],
+    "special": "A Shiho mystic, the newest addition to the clan. Eishin provides spiritual protection and Ki disruption.",
+    "unique": true,
+    "ronin": false,
+    "imageUrl": "https://gctstudios.com/products/shiho-eishin",
+    "sourceFile": "seed-approximate"
+  }
+]

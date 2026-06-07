@@ -1,0 +1,366 @@
+@import "tailwindcss";
+
+/* ─── Google Fonts ─────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Noto+Serif+JP:wght@400;600;700&family=UnifrakturMaguntia&display=swap');
+
+/* ─── Theme Tokens ─────────────────────────────────────────────────────────── */
+@theme {
+  /* Parchment palette */
+  --color-parchment:       #f4ead5;
+  --color-parchment-dark:  #e8d5b0;
+  --color-parchment-deep:  #d4bc8e;
+  --color-ink:             #1a1209;
+  --color-ink-faded:       #4a3f2f;
+  --color-ink-light:       #7a6a52;
+  --color-red-seal:        #8b1a1a;
+  --color-gold:            #c8922a;
+  --color-gold-light:      #e8b84b;
+
+  /* Faction colours */
+  --color-faction-prefecture:    #8b1a1a;
+  --color-faction-rokan:         #3d6b3d;
+  --color-faction-yurei:         #4a2a6b;
+  --color-faction-savage-wave:   #6b3a1a;
+  --color-faction-ito:           #2a5e3f;
+  --color-faction-silvermoon:    #2a4a7a;
+  --color-faction-descension:    #1a2a4a;
+  --color-faction-jung:          #1a5a5a;
+  --color-faction-shadow-wind:   #3a3a4a;
+  --color-faction-minimoto:      #4a4a4a;
+  --color-faction-shiho:         #6b5a1a;
+  --color-faction-kinshi:        #2a5a7a;
+  --color-faction-awoken:        #3a5a2a;
+  --color-faction-imperial:      #7a5a1a;
+  --color-faction-horse-lords:   #7a5a3a;
+  --color-faction-ronin:         #5a5a5a;
+
+  /* Typography */
+  --font-family-heading:  'IM Fell English', 'Noto Serif JP', Georgia, serif;
+  --font-family-body:     'IM Fell English', Georgia, serif;
+  --font-family-display:  'UnifrakturMaguntia', 'IM Fell English', serif;
+  --font-family-mono:     'Courier New', Courier, monospace;
+
+  /* Spacing */
+  --spacing-px:    1px;
+
+  /* Shadows */
+  --shadow-ink:    2px 2px 0 rgba(26, 18, 9, 0.15);
+  --shadow-card:   0 2px 8px rgba(26, 18, 9, 0.12), 0 1px 2px rgba(26, 18, 9, 0.08);
+  --shadow-seal:   inset 0 1px 3px rgba(26, 18, 9, 0.2);
+}
+
+/* ─── Base Styles ───────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-family-body);
+  color: var(--color-ink);
+  background-color: var(--color-parchment-dark);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-parchment-dark);
+  background-image:
+    url('/textures/parchment-noise.png'),
+    radial-gradient(ellipse at top, rgba(200, 146, 42, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse at bottom, rgba(26, 18, 9, 0.05) 0%, transparent 60%);
+  background-attachment: fixed;
+}
+
+/* ─── Typography ────────────────────────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  color: var(--color-ink);
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.375rem; }
+h4 { font-size: 1.125rem; }
+
+p {
+  line-height: 1.7;
+  color: var(--color-ink-faded);
+}
+
+a {
+  color: var(--color-red-seal);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+a:hover { color: var(--color-gold); }
+
+/* ─── Utility Classes ───────────────────────────────────────────────────────── */
+
+/* Dividers */
+.divider-ink {
+  border: none;
+  border-top: 1px solid var(--color-parchment-deep);
+  margin: 1rem 0;
+}
+
+.divider-gold {
+  border: none;
+  border-top: 1px solid var(--color-gold);
+  margin: 1rem 0;
+}
+
+/* Heading with gold rule */
+.heading-ruled {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-family-heading);
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  color: var(--color-ink);
+}
+.heading-ruled::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, var(--color-gold), transparent);
+}
+
+/* Parchment card */
+.card-parchment {
+  background: var(--color-parchment);
+  border: 1px solid var(--color-parchment-deep);
+  border-radius: 2px;
+  box-shadow: var(--shadow-card);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-parchment::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/textures/parchment-noise.png');
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Corner ornaments */
+.corner-ornament {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-color: var(--color-gold);
+  border-style: solid;
+  border-width: 0;
+  opacity: 0.6;
+}
+.corner-ornament.tl { top: 4px; left: 4px; border-top-width: 1px; border-left-width: 1px; }
+.corner-ornament.tr { top: 4px; right: 4px; border-top-width: 1px; border-right-width: 1px; }
+.corner-ornament.bl { bottom: 4px; left: 4px; border-bottom-width: 1px; border-left-width: 1px; }
+.corner-ornament.br { bottom: 4px; right: 4px; border-bottom-width: 1px; border-right-width: 1px; }
+
+/* Stat block */
+.stat-block {
+  font-family: var(--font-family-mono);
+  font-size: 0.875rem;
+  border: 1px solid var(--color-parchment-deep);
+  border-radius: 1px;
+  overflow: hidden;
+}
+.stat-block th {
+  background: var(--color-ink);
+  color: var(--color-parchment);
+  font-family: var(--font-family-heading);
+  font-size: 0.625rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  border-right: 1px solid rgba(244, 234, 213, 0.15);
+}
+.stat-block td {
+  text-align: center;
+  padding: 0.375rem 0.5rem;
+  border-right: 1px solid var(--color-parchment-deep);
+  font-weight: 600;
+  color: var(--color-ink);
+}
+.stat-block tr:nth-child(even) td {
+  background: rgba(26, 18, 9, 0.03);
+}
+
+/* Badge/seal */
+.badge-seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  font-family: var(--font-family-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  border: 1px solid currentColor;
+  box-shadow: var(--shadow-seal);
+}
+
+/* Faction watermark */
+.faction-watermark {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.04;
+  pointer-events: none;
+  font-family: var(--font-family-display);
+  font-size: 8rem;
+  color: var(--color-ink);
+  user-select: none;
+}
+
+/* Navigation */
+.nav-link {
+  font-family: var(--font-family-heading);
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  color: var(--color-ink-faded);
+  padding: 0.25rem 0.5rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: var(--color-ink);
+  border-bottom-color: var(--color-gold);
+}
+
+/* Ki token */
+.ki-token {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-ink-faded);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.1s;
+  font-size: 0.65rem;
+  color: var(--color-ink-faded);
+}
+.ki-token.filled {
+  background: var(--color-ink);
+  border-color: var(--color-ink);
+  color: var(--color-gold);
+}
+
+/* Wound tracker */
+.wound-pip {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-red-seal);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.wound-pip.taken {
+  background: var(--color-red-seal);
+}
+
+/* Button styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--font-family-heading);
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid var(--color-ink);
+  background: transparent;
+  color: var(--color-ink);
+  cursor: pointer;
+  transition: all 0.15s;
+  border-radius: 1px;
+  font-size: 0.9rem;
+}
+.btn:hover {
+  background: var(--color-ink);
+  color: var(--color-parchment);
+}
+.btn-primary {
+  background: var(--color-ink);
+  color: var(--color-parchment);
+}
+.btn-primary:hover {
+  background: var(--color-ink-faded);
+}
+.btn-danger {
+  border-color: var(--color-red-seal);
+  color: var(--color-red-seal);
+}
+.btn-danger:hover {
+  background: var(--color-red-seal);
+  color: var(--color-parchment);
+}
+.btn-sm {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+/* Rice counter */
+.rice-counter {
+  font-family: var(--font-family-mono);
+  font-size: 0.875rem;
+  padding: 0.25rem 0.75rem;
+  background: var(--color-ink);
+  color: var(--color-parchment);
+  border-radius: 1px;
+}
+.rice-counter.over-limit {
+  background: var(--color-red-seal);
+}
+
+/* Status badges */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.65rem;
+  font-family: var(--font-family-mono);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.125rem 0.375rem;
+  border-radius: 1px;
+  border: 1px solid currentColor;
+  cursor: pointer;
+  transition: all 0.1s;
+  opacity: 0.5;
+}
+.status-badge.active {
+  opacity: 1;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--color-parchment-dark); }
+::-webkit-scrollbar-thumb { background: var(--color-parchment-deep); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-ink-light); }
+
+/* Transitions */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.2s, transform 0.2s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(4px);
+}
