@@ -1,5 +1,5 @@
-import { getDb } from '~/server/database/db'
-import { warbands } from '~/server/database/schema'
+import { getDb } from '#server/database/db'
+import { warbands } from '#server/database/schema'
 import { randomUUID } from 'crypto'
 
 export default defineEventHandler(async (event) => {

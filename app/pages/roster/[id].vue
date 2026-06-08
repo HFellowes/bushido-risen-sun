@@ -173,7 +173,6 @@
 <script setup lang="ts">
 import { FACTIONS } from '~/types/unit'
 import type { Unit, FactionSlug } from '~/types/unit'
-import { randomUUID } from 'crypto'
 
 const route = useRoute()
 const store = useWarbandStore()

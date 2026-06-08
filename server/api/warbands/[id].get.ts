@@ -1,5 +1,5 @@
-import { getDb } from '~/server/database/db'
-import { warbands } from '~/server/database/schema'
+import { getDb } from '#server/database/db'
+import { warbands } from '#server/database/schema'
 import { eq } from 'drizzle-orm'
 
 export default defineEventHandler(async (event) => {

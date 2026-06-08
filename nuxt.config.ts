@@ -7,6 +7,8 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
+  serverDir: 'server',
+
   modules: [
     '@pinia/nuxt',
     '@nuxt/icon',
